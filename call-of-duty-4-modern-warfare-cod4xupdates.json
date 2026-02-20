@@ -11,15 +11,13 @@
     {
         "UpdateStageName": "COD4x Server Download",
         "UpdateSourcePlatform": "All",
-        "UpdateSource": "GithubRelease",
-        "UpdateSourceData": "cod4x-windows-server.zip",
-        "UpdateSourceArgs": "AlucardXP/AMPTemplate",
+        "UpdateSource": "FetchURL",
+        "UpdateSourceData": "https://github.com/alucardXP/AMPTemplate/releases/latest/download/cod4x-windows-server.zip",
+        "UpdateSourceTarget": "{{$FullBaseDir}}",
         "UnzipUpdateSource": true,
-        "OverwriteExistingFiles": false,
-        "UpdateSourceConditionSetting": "",
-        "UpdateSourceConditionValue": "",
-        "DeleteAfterExtract": false,
-        "OneShot": false
+        "OverwriteExistingFiles": true,
+        "DeleteAfterExtract": true,
+        "SkipOnFailure": false
     },
     {
         "UpdateStageName": "Config File Download",
