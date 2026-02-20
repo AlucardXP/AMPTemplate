@@ -10,7 +10,18 @@
     },
     {
         "UpdateStageName": "COD4x Server Download",
-        "UpdateSourcePlatform": "All",
+        "UpdateSourcePlatform": "Windows",
+        "UpdateSource": "FetchURL",
+        "UpdateSourceData": "https://github.com/alucardXP/AMPTemplate/releases/latest/download/cod4x-windows-server.zip",
+        "UpdateSourceTarget": "{{$FullBaseDir}}",
+        "UnzipUpdateSource": true,
+        "OverwriteExistingFiles": true,
+        "DeleteAfterExtract": true,
+        "SkipOnFailure": false
+    },
+    {
+        "UpdateStageName": "COD4x Server Download",
+        "UpdateSourcePlatform": "Linux",
         "UpdateSource": "FetchURL",
         "UpdateSourceData": "https://github.com/alucardXP/AMPTemplate/releases/latest/download/cod4x-windows-server.zip",
         "UpdateSourceTarget": "{{$FullBaseDir}}",
