@@ -506,7 +506,21 @@
         "IncludeInCommandLine": false,
         "DefaultValue": "5",
         "EnumValues": {}
+    },
+    {
+        "DisplayName": "Additional Command Arguments",
+        "Category": "COD4x Modern Warfare:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "Sets any additional launch arguments",
+        "Keywords": "",
+        "FieldName": "$add_args",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "add_args",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "",
+        "EnumValues": {}
     }
-
 ]
+
 
