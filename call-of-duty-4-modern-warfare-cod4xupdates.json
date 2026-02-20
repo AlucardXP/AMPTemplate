@@ -15,7 +15,7 @@
         "UpdateSourceData": "http://104.194.9.79/files/cod4x-windows-server.zip",
         "UpdateSourceArgs": "callofduty4x/CoD4x_Server",
         "UnzipUpdateSource": true,
-        "OverwriteExistingFiles": false,
+        "OverwriteExistingFiles": true,
         "UpdateSourceConditionSetting": "",
         "UpdateSourceConditionValue": "",
         "DeleteAfterExtract": false,
