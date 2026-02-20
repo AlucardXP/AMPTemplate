@@ -17,6 +17,7 @@
         "UnzipUpdateSource": true,
         "OverwriteExistingFiles": true,
         "DeleteAfterExtract": false,
+        "SkipOnFailure": false
     },
     {
         "UpdateStageName": "Create Custom Maps Directory",
