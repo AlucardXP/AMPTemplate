@@ -1,14 +1,12 @@
 [
     {
-        "UpdateStageName": "COD4 SteamCMD",
+        "UpdateStageName": "SteamCMD Download",
         "UpdateSourcePlatform": "All",
         "UpdateSource": "SteamCMD",
         "UpdateSourceData": "7940",
         "UpdateSourceArgs": "7940",
-        "UnzipUpdateSource": false,
-        "OverwriteExistingFiles": false,
-        "DeleteAfterExtract": true,
-        "OneShot": false
+        "ForceDownloadPlatform": "Windows",
+        "SkipOnFailure": false
     },
     {
         "UpdateStageName": "COD4x Server Download",
