@@ -34,7 +34,7 @@
         "UpdateStageName": "Config File Download",
         "UpdateSourcePlatform": "All",
         "UpdateSource": "FetchURL",
-        "UpdateSourceData": "https://raw.githubusercontent.com/AlucardXP/AMPTemplate/main/call-of-duty4mwserver.cfg",
+        "UpdateSourceData": "https://github.com/AlucardXP/AMPTemplate/raw/refs/heads/main/COD4x/server.cfg",
         "UpdateSourceArgs": "server.cfg",
         "UpdateSourceTarget": "{{$FullBaseDir}}main",
         "OverwriteExistingFiles": false,
