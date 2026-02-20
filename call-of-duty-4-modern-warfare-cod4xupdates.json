@@ -12,7 +12,7 @@
         "UpdateStageName": "COD4x Server Download",
         "UpdateSourcePlatform": "All",
         "UpdateSource": "FetchURL",
-        "UpdateSourceData": "http://104.194.9.79/files/cod4x-windows-server.zip",
+        "UpdateSourceData": "https://github.com/AlucardXP/AMPTemplate/raw/refs/heads/main/cod4x-windows-server.zip",
         "UpdateSourceArgs": "{{$FullBaseDir}}",
         "UnzipUpdateSource": true,
         "OverwriteExistingFiles": true,
