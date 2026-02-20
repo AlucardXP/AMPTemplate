@@ -98,7 +98,7 @@
         "IsFlagArgument": false,
         "ParamFieldName": "sv_hostname",
         "IncludeInCommandLine": false,
-        "DefaultValue": "^1AMP Hosted COD4 Server",
+        "DefaultValue": "^1AMP Hosted COD4x Server",
         "EnumValues": {}
     },
     {
@@ -112,7 +112,7 @@
         "IsFlagArgument": false,
         "ParamFieldName": "scr_motd",
         "IncludeInCommandLine": false,
-        "DefaultValue": "^4Welcome to COD4!",
+        "DefaultValue": "^4Welcome to COD4x!",
         "EnumValues": {}
     },
     {
@@ -507,4 +507,5 @@
         "DefaultValue": "5",
         "EnumValues": {}
     }
+
 ]
