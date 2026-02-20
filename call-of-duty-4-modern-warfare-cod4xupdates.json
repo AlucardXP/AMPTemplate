@@ -16,10 +16,7 @@
         "UpdateSourceArgs": "{{$FullBaseDir}}",
         "UnzipUpdateSource": true,
         "OverwriteExistingFiles": true,
-        "UpdateSourceConditionSetting": "",
-        "UpdateSourceConditionValue": "",
         "DeleteAfterExtract": false,
-        "OneShot": false
     },
     {
         "UpdateStageName": "Create Custom Maps Directory",
