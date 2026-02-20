@@ -13,12 +13,27 @@
         "UpdateSourcePlatform": "All",
         "UpdateSource": "FetchURL",
         "UpdateSourceData": "http://104.194.9.79/files/cod4x-windows-server.zip",
-        "UpdateSourceArgs": "callofduty4x/CoD4x_Server",
+        "UpdateSourceArgs": "{{$FullBaseDir}}",
         "UnzipUpdateSource": true,
         "OverwriteExistingFiles": true,
         "UpdateSourceConditionSetting": "",
         "UpdateSourceConditionValue": "",
         "DeleteAfterExtract": false,
         "OneShot": false
+    },
+    {
+        "UpdateStageName": "Create Custom Maps Directory",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "CreateDirectory",
+        "UpdateSourceArgs": "{{$FullBaseDir}}usermaps",
+        "OverwriteExistingFiles": false
+    },
+    {
+        "UpdateStageName": "Initialise Wine",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "Executable",
+        "UpdateSourceData": "/bin/bash",
+        "UpdateSourceArgs": "-c \"rm -rf \\\"{{$FullRootDir}}.wine\\\" >/dev/null 2>&1; WINEPREFIX=\\\"{{$FullRootDir}}.wine\\\" WINEARCH=win32 WINEDEBUG=-all XDG_RUNTIME_DIR=/tmp /usr/bin/wineboot --init\"",
+        "SkipOnFailure": false
     }
 ]
