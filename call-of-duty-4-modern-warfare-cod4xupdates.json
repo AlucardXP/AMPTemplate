@@ -16,7 +16,7 @@
         "UpdateSourceTarget": "{{$FullBaseDir}}",
         "UnzipUpdateSource": true,
         "OverwriteExistingFiles": true,
-        "DeleteAfterExtract": true,
+        "DeleteAfterExtract": false,
         "SkipOnFailure": false
     },
     {
@@ -27,7 +27,7 @@
         "UpdateSourceTarget": "{{$FullBaseDir}}",
         "UnzipUpdateSource": true,
         "OverwriteExistingFiles": true,
-        "DeleteAfterExtract": true,
+        "DeleteAfterExtract": false,
         "SkipOnFailure": false
     },
     {
